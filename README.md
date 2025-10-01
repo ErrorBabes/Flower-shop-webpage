@@ -13,7 +13,7 @@ The goal of the page is to show products in a clean and modern way.
 - [Aisha Elabass](https://github.com/Aisha-ai715)
 - [Ladunni Tegbe](https://github.com/Ladunnitegbe)
 - [Ekene Okpala](https://github.com/kenzie-mira)
-- [Kaloso Mhelu](https://github.com/kwrites259)
+- [Kaloso Mhlelu](https://github.com/kwrites259)
 
 ## Concept Application
 
