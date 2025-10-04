@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
-    <link rel="stylesheet" href="sec7and8.css">
+    <link rel="stylesheet" href="sec7.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -16,128 +16,152 @@
     <section class="section7">
 
         <h3 class="section7_subheader">Best Seller</h3>
-        <div class="section7_headerandparagraph">
+        
         <h2 class="section7_header">
              <span class="sec_coloured_text">Deals
              </span>
               of the Day</h2>
-        <p id="section-7-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <p id="section7_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Porro minus sit fugiat. Consectetur, soluta ipsa id eius et itaque.</p>
-        </div>
+        
 
-        <div class="section7_container">
+        
             <aside class="section7_smallcard">
-                <!-- <img src="sec7and8_images/sec7img1edit.png" alt="lady with flowers" class="section7_smallcardimg"> -->
-                <p id="section-7-smallcard-discount">50% Off</p>
-                <p id="section-7-smallcard-date">06 DEC - 16 DEC</p>
-                <a href="#" id="section-7-smallcard-link">SHOP NOW</a>
-
+                <div class="section7_smallcard_content">
+                    <p id="section-7-smallcard-discount">50% Off</p>
+                    <p id="section-7-smallcard-date">06 DEC - 16 DEC</p>
+                    <a href="https://www.example.com" id="section-7-smallcard-link">SHOP NOW</a>
+                </div>
             </aside>
 
-            <article class="section7_bigcard">
-                <img src="sec7and8_images/sec7img2newee.png" alt="flower1" class="section7_flowers">
-                <button class="section7_button">50% Off</button>
-                <div class="section7_symbols">
-                    <p><img src="sec7and8_images/heart-alt-svgrepo-com.svg" alt="heart symbol"class="sec7symbols"></p>
-                    <p><img src="sec7and8_images/expand-svgrepo-com.svg" alt="expand symbol" class="sec7symbols"></p>
-                    <p><img src="sec7and8_images/shopping-bag-3-svgrepo-com.svg" alt="shopping bag symbol" class="sec7symbols"></p>
-                </div>
-                <h4 class="section7_flowerheading">Bouquets
-                    <span class="section7_rating">
-                        <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar">4.8
-                    </span>
-                </h4>
-                <h3 class="section7_flowernames">Rose Boutique</h3>
-                <span class="section7_newprice">$35.00</span>
-                <span class="section7_oldprice">$70.00</span>
-            </article>
-
-            <article class="section7_bigcard">
-                <img src="sec7and8_images/sec7img3new.jpg" alt="flower2" class="section7_flowers">
-                <button class="section7_button">30% Off</button>
-
-                <h4 class="section7_flowerheading">Bouquets
-                    <span class="section7_rating">
-                         <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar">4.9
+            <div class="section7_bigcardcontainer">
+                <article class="section7_bigcard">
+                    <div class="section7_bigcard_wrapper">
+                    <img src="sec7and8_images/sec7img2newee.png" alt="flower1" class="section7_flowers">
+                    <button class="section7_button">50% Off</button>
+                    </div>
+                    <div class="section7_symbols">
+                        <p><img src="sec7and8_images/heart-alt-svgrepo-com.svg" alt="heart symbol"class="sec7symbols"></p>
+                        <p><img src="sec7and8_images/expand-svgrepo-com.svg" alt="expand symbol" class="sec7symbols"></p>
+                        <p><img src="sec7and8_images/shopping-bag-3-svgrepo-com.svg" alt="shopping bag symbol" class="sec7symbols"></p>
+                    </div>
+                    <h4 class="section7_flowerheading">Bouquets
+                        <span class="section7_rating">
+                            <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar"> 4.8
                         </span>
-                </h4>
-                <h3 class="section7_flowernames">Rose Boutique</h3>
-                <span class="section7_newprice">$35.00</span>
-                <span class="section7_oldprice">$50.00</span>
-                
+                    </h4>
+                    <h3 class="section7_flowernames">Rose Boutique</h3>
+                    <p class="section7_prices">
+                        <span class="section7_newprice">$35.00</span>
+                        <span class="section7_oldprice">$70.00</span>
+                    </p>
+                </article>
 
-            </article>
+                <article class="section7_bigcard">
+                    <div class="section7_bigcard_wrapper">
+                        <img src="sec7and8_images/sec7img3neww.png" alt="flower2" class="section7_flowers">
+                        <button class="section7_button">30% Off</button>
+                    </div>
 
-            <article class="section7BigCard">
-                <img src="sec7and8_images/sec7img33new.jpg" alt="flower3" class="section7_flowers">
-                <button class="section7_button">20% Off</button>
+                    <h4 class="section7_flowerheading">Bouquets
+                        <span class="section7_rating">
+                            <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar"> 4.9
+                            </span>
+                    </h4>
+                    <h3 class="section7_flowernames">Rose Boutique</h3>
+                    <p class="section7_prices">
+                        <span class="section7_newprice">$35.00</span>
+                        <span class="section7_oldprice">$50.00</span>
+                    </p>
 
-                <h4 class="section7_flowerheading">Basket
-                    <span class="section7_rating">
-                         <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar">5.0
-                    </span>
-                </h4>
-                <h3 class="section7_flowernames">Flower Basket</h3>
-                <span class="section7_newprice">$80.00</span>
-                <span class="section7_oldprice">$100.00</span>
-                
+                </article>
 
-            </article>
+                <article class="section7_bigcard">
+                    <div class="section7_bigcard_wrapper">
+                        <img src="sec7and8_images/sec7img33neww.png" alt="flower3" class="section7_flowers">
+                        <button class="section7_button">20% Off</button>
+                    </div>
 
-            <article class="section7BigCard">
-                <img src="sec7and8_images/sec7img4new.jpg" alt="flower4" class="section7_flowers">
-                <button class="section7_button">10% Off</button>
+                    <h4 class="section7_flowerheading">Basket
+                        <span class="section7_rating">
+                            <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar"> 5.0
+                        </span>
+                    </h4>
+                    <h3 class="section7_flowernames">Flower Basket</h3>
+                    <p class="section7_prices">
+                        <span class="section7_newprice">$80.00</span>
+                        <span class="section7_oldprice">$100.00</span>
+                    </p>
 
-                <h4 class="section7_flowerheading">Bouquets
-                    <span class="section7_rating">
-                         <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar">4.8
-                    </span>
-                </h4>
-                <h3 class="section7_flowernames">Colorful Rose</h3>
-                <span class="section7_newprice">$45.00</span>
-                <span class="section7_oldprice">$50.00</span>
+                </article>
 
-            </article>
+                <article class="section7_bigcard">
+                    <div class="section7_bigcard_wrapper">
+                        <img src="sec7and8_images/sec7img4neww.png" alt="flower4" class="section7_flowers">
+                        <button class="section7_button">10% Off</button>
+                    </div>
 
-            <article class="section7BigCard">
-                <img src="sec7and8_images/sec7img5new.jpg" alt="flower5" class="section7_flowers">
-                <button class="section7_button">50% Off</button>
+                    <h4 class="section7_flowerheading">Bouquets
+                        <span class="section7_rating">
+                            <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar"> 4.8
+                        </span>
+                    </h4>
+                    <h3 class="section7_flowernames">Colorful Rose</h3>
+                    <p class="section7_prices">
+                        <span class="section7_newprice">$45.00</span>
+                        <span class="section7_oldprice">$50.00</span>
+                    </p>
 
-                <h4 class="section7_flowerheading">Flowers
-                    <span class="section7_rating">
-                        <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar">4.9
-                    </span>
-                </h4>
-                <h3 class="section7_flowernames">Pink Flowers</h3>
-                <span class="section7_newprice">$20.00</span>
-                <span class="section7_oldprice">$40.00</span>
-                
-            </article>
+                </article>
 
-            <article class="section7BigCard">
-                <img src="sec7and8_images/sec7img6neweditee.png" alt="flower1" class="section7_flowers">
-                <button class="section7_button">10% Off</button>
+                <article class="section7_bigcard">
+                    <div class="section7_bigcard_wrapper">
+                        <img src="sec7and8_images/sec7img5neww.png" alt="flower5" class="section7_flowers">
+                        <button class="section7_button">50% Off</button>
+                    </div>
 
-                <h4 class="section7_flowerheading">Bouquets
-                    <span class="section7_rating">
-                         <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar">4.8
-                    </span>
-                </h4>
-                <h3 class="section7_flowernames">Rose Bouquets</h3>
-                <span class="section7_newprice">$90.00</span>
-                <span class="section7_oldprice">$100.00</span>
-                
+                    <h4 class="section7_flowerheading">Flowers
+                        <span class="section7_rating">
+                            <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar"> 4.9
+                        </span>
+                    </h4>
+                    <h3 class="section7_flowernames">Pink Flowers</h3>
+                    <p class="section7_prices">
+                        <span class="section7_newprice">$20.00</span>
+                        <span class="section7_oldprice">$40.00</span>
+                    </p>
 
-            </article>
+                </article>
 
-        </div>
+                <article class="section7_bigcard">
+                    <div class="section7_bigcard_wrapper">
+                        <img src="sec7and8_images/sec7img6neweditee.png" alt="flower1" class="section7_flowers">
+                        <button class="section7_button">10% Off</button>
+                    </div>
+
+                    <h4 class="section7_flowerheading">Bouquets
+                        <span class="section7_rating">
+                            <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar"> 4.8
+                        </span>
+                    </h4>
+                    <h3 class="section7_flowernames">Rose Bouquets</h3>
+                    <p class="section7_prices">
+                        <span class="section7_newprice">$90.00</span>
+                        <span class="section7_oldprice">$100.00</span>
+                    </p>
+                    
+                    
+
+                </article>
+            </div>
+        
     </section>
 
     <!-- section 8 -->
 
     <section class="section8">
         <h3 class="section8Subheader">Testimonial</h3>
-        <h2 class="section8Header"> What<span class="sec coloured text"> Our Clients Say</span></h2>
+        <h2 class="section8Header"> What  <span class="sec_coloured_text"> Our Clients Say</span></h2>
 
         <div class="section8Container">
             <article class="section8Card">
