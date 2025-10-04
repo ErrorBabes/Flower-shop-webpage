@@ -198,3 +198,41 @@ body {
     flex-wrap: wrap;
     }
 }
+
+.products-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px 0 20px;
+    padding: 0 40px;
+}
+
+.products-header-container h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.products-header-container .highlight{
+    color: #5E00A6;
+}
+
+.products-header-container .viewall{
+    background-color: #5E00A6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 40px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.viewall:hover{
+    background-color: #c9335b;
+}
+
+.highlights{
+    margin-bottom: 40px 0 20px;
+    padding: 0 40px;
+}
