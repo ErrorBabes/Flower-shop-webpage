@@ -42,18 +42,13 @@ body {
 
 }
 
-/* .section7_headerandparagraph {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-} */
+
 
 .section7_header {
-    font-size: 1.16rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 17px;
-    width: 12rem;
+    width: 18rem;
     height: 2rem;
     color: #262626 ;
     grid-area: header;
@@ -137,7 +132,7 @@ body {
 
 .section7_bigcardcontainer {
     width: 80%;
-    height: 480px;
+    height: 98%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
@@ -235,8 +230,8 @@ body {
 }
 
 .yellowstar {
-   width: 13px;
-    height: 11px; 
+   width: 1.8em;
+    height: 1.2em; 
 }
 
 .section7_flowernames {
@@ -275,20 +270,22 @@ body {
 }
 
 .section8Subheader{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    margin-bottom: 8px;
-    color: #9A9A9A;
+    margin-bottom: 0;
+    color: #252525;
     grid-area: subheader;
     display: grid;
     justify-content: center;
 }
 
 .section8Header{
-    font-size: 1.16rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 17px;
-    width: 20rem;
+    margin-left: 25rem;
+    margin-top: 0;
+    width: 25rem;
     height: 2rem;
     color: #262626 ;
     display: flex;
@@ -296,6 +293,11 @@ body {
     justify-content: center;
     align-content: center;
     grid-area: header;
+}
+
+#our-clients-say {
+    
+    margin-left: 5px;
 }
 
 .section8Container{
@@ -307,9 +309,102 @@ body {
     grid-area: maincard;
 }
 
+.section8Card {
+    background-color: #ffffff;
+    width: 25rem;
+    height: 18rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    text-align: justify;
+    
+    color: #262626;
+}
+
+.section-8-card-paragraph {
+    font-size: 0.7rem;
+    color: #242424;
+}
+
+.section8Profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section8ProfileImgWrapper {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    border-style: double;
+    overflow: hidden;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall size */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#section8ProfileImgWrapper1 {
+    background-image: url("sec7and8_images/sec8img1new.png");
+     background-size: cover;
+    background-position: center;
+}
+
+#section8ProfileImgWrapper2 {
+    background-image: url("sec7and8_images/beauty-woman.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 .section8ProfileImg {
-    width: 80px;
-    height: 80px;
+    width: 76px;
+    height: 76px;
     border-radius: 50%;
+    border: 4px solid #ffffff;
+    
 }
+
+.section8ProfileName{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #262626;
+    margin: 0;
+}
+
+.section8ProfileRating {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #252525;
+    margin: 4px 0 0 0;
+}
+
+ .section8ProgressContainer {
+      width: 200px;             
+      height: 8px;              
+      background-color: #f0f0f0;
+      border-radius: 10px;       
+      overflow: hidden;      
+      display: flex;   
+      justify-content: space-between;
+      margin:  0 80% 0;
+    }
+
+    .section8ProgressBar {
+      height: 100%;
+      width: 25%;                
+      background-color: #f0f0f0;  
+      border-radius: 10px; 
+        margin-right: 3px;
+      
+    }
+
+    #section8ProgressBar1 {
+       background-color: #5f05a5;   
+    }
+
