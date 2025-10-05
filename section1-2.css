@@ -371,6 +371,10 @@ nav a:hover, nav a:focus {
     flex: 0 1 472px;
 }
 
+.discounts-left:hover, .discounts-right:hover{
+    border: 3px solid #db23ba;
+}
+
 .discounts-left {
     background-color: rgb(233, 226, 226);  
     background-image: url("./image1/left-bg.png");
