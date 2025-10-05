@@ -21,7 +21,7 @@
              <span class="sec_coloured_text">Deals
              </span>
               of the Day</h2>
-        <p id="section7_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p id="section7_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Porro minus sit fugiat. Consectetur, soluta ipsa id eius et itaque.</p>
         
 
@@ -30,7 +30,7 @@
                 <div class="section7_smallcard_content">
                     <p id="section-7-smallcard-discount">50% Off</p>
                     <p id="section-7-smallcard-date">06 DEC - 16 DEC</p>
-                    <a href="https://www.example.com" id="section-7-smallcard-link">SHOP NOW</a>
+                    <a href="https://www.google.com" id="section-7-smallcard-link">SHOP NOW</a>
                 </div>
             </aside>
 
@@ -161,10 +161,12 @@
 
     <section class="section8">
         <h3 class="section8Subheader">Testimonial</h3>
-        <h2 class="section8Header"> What  <span class="sec_coloured_text"> Our Clients Say</span></h2>
+        <h2 class="section8Header"> What   
+            <span class="sec_coloured_text" id="our-clients-say"> Our Clients Say</span>
+        </h2>
 
         <div class="section8Container">
-            <article class="section8Card">
+            <article class="section8Card" >
                 <p>
                     <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar sec8star">
                     <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar sec8star">
@@ -173,13 +175,16 @@
                     <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar sec8star"> 5.0
                 </p>
                 <h3 class="section8CardHeader">Gorgeous Bouquets!</h3>
-                <p id="section-8-card-paragraph">Sed ut perspiciatis unde omnis iste natus error sit 
+                <p class="section-8-card-paragraph">Sed ut perspiciatis unde omnis iste natus error sit 
                     voluptatem accusantium doloremque laudantium, totam rem aperiam.
                     Quisquam, quod. Quisquam, quod. Quisquam, quod. Lorem ipsum dolor sit amet consectetur 
                     adipisicing elit.
                      Laudantium illum necessitatibus, doloribus totam asperiores.</p>
                  <div class="section8Profile">
-                    <img src="sec7and8_images/sec8img1new.png" alt="client profile1" class="section8ProfileImg">
+                    <div class="section8ProfileImgWrapper" id="section8ProfileImgWrapper1">
+                        <!-- <img src="sec7and8_images/sec8img1new.png" alt="client profile1" class="section8ProfileImg"> -->
+                    </div>
+                    
                     <div class="section8ProfileNameAndRole">
                         <h4 class="section8ProfileName">Jenny Wilson</h4>
                         <p class="section8ProfileRating">Happy Customer</p>
@@ -196,13 +201,15 @@
                     <img src="sec7and8_images/star-svgrepo-com.svg" alt="star symbol" class="yellowstar sec8star"> 5.0
                 </p>
                 <h3 class="section8CardHeader">Beautiful Flowers!</h3>
-                <p id="section-8-card-paragraph">Sed ut perspiciatis unde omnis iste natus error sit 
+                <p class="section-8-card-paragraph">Sed ut perspiciatis unde omnis iste natus error sit 
                     voluptatem accusantium doloremque laudantium, totam rem aperiam.
                     Quisquam, quod. Quisquam, quod. Quisquam, quod. Lorem ipsum dolor sit amet consectetur 
                     adipisicing elit.
                      Laudantium illum necessitatibus, doloribus totam asperiores.</p>
                  <div class="section8Profile">
-                    <img src="sec7and8_images/beauty-woman.jpg" alt="client profile1" class="section8ProfileImg">
+                    <div class="section8ProfileImgWrapper" id="section8ProfileImgWrapper2">
+                        <!-- <img src="sec7and8_images/beauty-woman.jpg" alt="client profile1" class="section8ProfileImg"> -->
+                    </div>
                     <div class="section8ProfileNameAndRole">
                         <h4 class="section8ProfileName">Dainne Russell</h4>
                         <p class="section8ProfileRating">Happy Customer</p>
@@ -210,6 +217,16 @@
                  </div>    
             </article>
         </div>
+
+        <div class="section8ProgressContainer">
+            <div class="section8ProgressBar" id="section8ProgressBar1"></div>
+            <div class="section8ProgressBar"></div>
+            <div class="section8ProgressBar"></div>
+            <div class="section8ProgressBar"></div>
+            <div class="section8ProgressBar"></div>
+        </div>
+        
+       
     </section>
 </body>
 </html>
