@@ -317,7 +317,7 @@ nav a:focus {
     color: #6300A9;
 }
 
-.products img {
+.products2 img {
     background-color: #F6F6F6;
     width: 90px;
     height: 90px;
@@ -326,12 +326,12 @@ nav a:focus {
     margin-bottom: 10px;
 }
 
-.products,
+.products2,
 .discounts {
     display: flex;
 }
 
-.products {
+.products2 {
     justify-content: flex-start;
     margin-left: 8.5%;
     margin-bottom: 5em;
@@ -340,7 +340,7 @@ nav a:focus {
     font-weight: 550;
 }
 
-.products p {
+.products2 p {
     text-align: center;
     margin-bottom: 8px;
 }
