@@ -1,3 +1,233 @@
+<<<<<<< HEAD
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+
+.main .parent {
+  width: 100%;
+  padding: 5%;
+  border: 0px solid green;
+  overflow: hidden;
+}
+
+.main .parent h2{
+    font-weight: 100;
+}
+
+
+.main .parent .blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px solid yellow;
+  margin: 10px 0;
+  margin-bottom: 30px;
+  /* width: 100%; */
+}
+
+.main .parent .blog h2{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.main .parent .blog #blog {
+  color: #630a9e;
+}
+
+.main .parent .blog button {
+  border: none;
+  width: 140px;
+  border-radius: 30px;
+  /* font-size: 18px; */
+  height: 2.5rem;
+  padding: 10px;
+  color: white;
+  background-color: #5e01a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .parent .card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  position: relative;
+  border: 0px solid red;
+  /* justify-items: center; */
+}
+
+.main .parent .card .img {
+  width: 350px;
+  height: 200px;
+  position: relative;
+  border-radius: 15px;
+  background-size: contain;
+}
+
+.main .parent .card .image {
+  width: fit-content;
+  border-radius: 25px;
+  border: 0px solid red;
+}
+
+.main .parent .card .image .info {
+  color: white;
+  background-color: #5e01a3;
+  
+  
+  position: absolute;
+  
+  bottom: 150px;
+  padding: 8px;
+  border-radius: 10px;
+  margin-left: -12px;
+  overflow: hidden;
+
+}
+
+.main .parent .card .image .info::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -12px;   
+  
+  width: 5px; 
+  height: 100%; 
+  background: #5e01a3;  
+  border-radius: 50%;
+   transform: translateY(-50%);  
+   background: white;
+}
+
+
+
+.main .parent .card .pink {
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: pink;
+}
+
+.main .parent .card .author {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 0;
+}
+
+.main .parent .card .desc {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.main .parent .card .card2 a {
+  color: #ad80c5;
+}
+
+.main .parent .card .cardb {
+  border: 0px solid purple;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+
+
+/* styling the purple nav */
+
+.main .navTop {
+  display: flex;
+  align-items: center;
+  background-color: #5e00a6;
+  color: white;
+  border: 0px solid red;
+  padding: 0;
+  margin: 20px 0;
+  margin-bottom: 0;
+  justify-content: space-evenly;
+  /* width: 100%; */
+}
+
+.main .navTop .rose {
+  width: 50px;
+}
+
+/* purple nav styling ends */
+
+/* follow us on insta starts */
+.main .follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.main .follow .gridClass {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows:auto;
+  grid-gap: 1.5rem;
+  min-height: 100px;
+  min-width: 300px;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.main .follow .gridClass .imgg2 {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.main #flowerG {
+ grid-column: span 2;
+ grid-row: span 2;
+}
+
+.main .follow .insta{
+    margin: 0 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .follow #insta{
+    font-size: 20px;
+}
+
+.main .follow .insta h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.main .follow .insta #pup{
+    color: #5e00a6;
+}
+/* follow us on insta ends */
+=======
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -450,3 +680,4 @@ nav a:focus {
 .discounts-right h2 {
     color: white;
 }
+>>>>>>> main
