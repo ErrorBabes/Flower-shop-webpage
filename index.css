@@ -2246,3 +2246,225 @@ nav a:focus {
     color: white;
 }
 >>>>>>> main
+
+/*section 11 and 12 */
+/* Navigation Bar */
+.navbar {
+  background-color: #5e00a1;
+  color: #fff;
+  padding: 1rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+/* FAQ Section */
+.faq-section {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.faq-section h2 {
+  color: #777;
+  font-size: 1.2rem;
+}
+
+.faq-section h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.faq-section span {
+  color: #5e00a1;
+}
+
+/* Layout */
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+/* Left side (FAQs) */
+.faq-list {
+  flex: 1;
+  min-width: 60%;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  width: 100%;
+  background: #f3f3f3;
+  border: none;
+  padding: 15px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.faq-question.active {
+  background: #5e00a1;
+  color: #fff;
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px;
+  background: #fafafa;
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+/* Right side (Contact box) */
+.contact-box {
+  background: #5e00a1;
+  color: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 25%;
+  min-width: 250px;
+  text-align: center;
+}
+
+.contact-box .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background: #ff6ec750;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+/* Feature Bar */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+/* ==NEWSLETTER SECTION== */
+.newsletter-section {
+  text-align: center;
+  padding: 80px 10%;
+  background-color: #f9f9ff;
+}
+
+.newsletter-section h2 {
+  color: #777;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.newsletter-section h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #333;
+}
+
+.newsletter-section span {
+  color: #5e00a1; 
+}
+
+.subtext {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Placeholder area for future form */
+.form-placeholder {
+  margin-top: 50px;
+  padding: 25px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #777;
+  background: #fff;
+  font-style: italic;
+}
+
+/* ==FOOTER== */
+footer {
+  background: #5e00a1;
+  color: white;
+  padding: 50px 10%;
+  border-radius: 20px 20px 0 0;
+  margin-top: 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+.footer-about {
+  max-width: 250px;
+}
+
+.footer-about h3 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
