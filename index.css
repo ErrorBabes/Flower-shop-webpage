@@ -3,6 +3,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+   
 
 }
 
@@ -1585,12 +1586,27 @@ span .deal-subtitle {
   padding: 5%;
   border: 0px solid green;
   overflow: hidden;
+  font-family: "Zalando Sans", sans-serif;
 }
 
-.main .parent h2{
-    font-weight: 100;
+.main .parent a {
+  color: #630a9e;
+  cursor: pointer;
 }
 
+
+
+.main .parent a:visited {
+  color: yellow;
+  
+}
+
+.main .parent a:hover {
+  text-decoration: none;
+} 
+.main .parent h2 {
+  font-weight: 100;
+}
 
 .main .parent .blog {
   display: flex;
@@ -1599,13 +1615,13 @@ span .deal-subtitle {
   border: 0px solid yellow;
   margin: 10px 0;
   margin-bottom: 30px;
+
   /* width: 100%; */
 }
 
-.main .parent .blog h2{
-    font-size: 35px;
-    font-weight: bold;
-    
+.main .parent .blog h2 {
+  font-size: 35px;
+  font-weight: bold;
 }
 .main .parent .blog #blog {
   color: #630a9e;
@@ -1623,6 +1639,17 @@ span .deal-subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.main .parent .blog button:hover {
+  border: 2px solid purple;
+  background-color: rgb(227, 178, 227);
+  color: black;
+  transition: 0.5s;
 }
 
 .main .parent .card {
@@ -1635,48 +1662,70 @@ span .deal-subtitle {
 }
 
 .main .parent .card .img {
-  width: 350px;
-  height: 200px;
+  width: 250px;
+  height: 150px;
   position: relative;
   border-radius: 15px;
   background-size: contain;
+  
 }
 
 .main .parent .card .image {
   width: fit-content;
   border-radius: 25px;
   border: 0px solid red;
+  
 }
 
 .main .parent .card .image .info {
   color: white;
   background-color: #5e01a3;
-  
-  
+   font-size: 10px;
   position: absolute;
-  
-  bottom: 150px;
-  padding: 8px;
   border-radius: 10px;
-  margin-left: -12px;
+  border-top-left-radius: 0;
+  bottom: 120px;
+  padding: 5px;
+  margin-left: -10px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main .parent .card .arrow{
+  width:30px;
+  background-color: #f087f5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+  top: 28%;
+  left: 11%;
 
 }
+
+.main .parent .card #arrow{
+  width:10px;
+}
+
 
 .main .parent .card .image .info::before {
   content: "";
   position: absolute;
-  top: 50%;
-  left: -12px;   
-  
-  width: 5px; 
-  height: 100%; 
-  background: #5e01a3;  
-  border-radius: 50%;
-   transform: translateY(-50%);  
-   background: white;
-}
+  top: 0px;
+  left: 0;
+ /* background-color: #5e01a3; */
+  width: 20px;
+  height: 10px;
 
+  border-top-left-radius: 20px;
+  
+ 
+}
 
 
 .main .parent .card .pink {
@@ -1692,11 +1741,13 @@ span .deal-subtitle {
   align-items: center;
   gap: 20px;
   padding: 5px 0;
+  color: gray;
+  font-size: 12px;
 }
 
 .main .parent .card .desc {
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 14px;
   padding: 10px 0;
 }
 
@@ -1712,33 +1763,36 @@ span .deal-subtitle {
   flex-direction: column;
   justify-content: center;
   align-items: start;
+
+  
 }
-
-
 
 /* styling the purple nav */
 
-.main .navTop {
+.main .lower .navTop {
   display: flex;
   align-items: center;
   background-color: #5e00a6;
   color: white;
   border: 0px solid red;
-  padding: 0;
-  margin: 20px 0;
+  padding: 10px 0;
+  margin: 0 0 20px 0;
   margin-bottom: 0;
   justify-content: space-evenly;
   /* width: 100%; */
 }
 
-.main .navTop .rose {
-  width: 50px;
+.main .lower .navTop .rose {
+  width: 25px;
+  color: white;
+  fill: white;
 }
 
 /* purple nav styling ends */
 
 /* follow us on insta starts */
-.main .follow {
+
+.main .lower .follow {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1746,53 +1800,58 @@ span .deal-subtitle {
   padding: 5%;
 }
 
-.main .follow .gridClass {
+.main .lower .follow .gridClass {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows:auto;
+  grid-template-rows: auto;
   grid-gap: 1.5rem;
   min-height: 100px;
   min-width: 300px;
   background-size: cover;
   background-position: center;
-  
 }
 
-.main .follow .gridClass .imgg2 {
+.main .lower .follow .gridClass .imgg2 {
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
   border-radius: 20px;
+  transition: all ease;
 }
 
-.main #flowerG {
- grid-column: span 2;
- grid-row: span 2;
+.main .lower .follow .gridClass .imgg2:hover {
+  transform: scale(1.2);
 }
 
-.main .follow .insta{
-    margin: 0 60px 60px 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.main .lower #flowerG {
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
-.main .follow #insta{
-    font-size: 20px;
+.main .lower .follow .insta {
+  margin: 0 60px 60px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.main .follow .insta h2{
-    font-size: 40px;
-    padding-top: 10px;
+.main .lower .follow #insta {
+  font-size: 20px;
 }
 
-.main .follow .insta #pup{
-    color: #5e00a6;
+.main .lower .follow .insta h2 {
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.main .lower .follow .insta #pup {
+  color: #5e00a6;
 }
 /* follow us on insta ends */
-=======
+
+
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
