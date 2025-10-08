@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> FAQ Page </title>
+  <link rel="stylesheet" href="FlowerShop Pg11.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="Logo"> FlowerShop </div> 
+    <ul> class="nav-links">
+      <li> <a href="#"> Birthday </a> </li>
+      <li> <a href="#"> Weddings </a> </li>
+      <li> <a href="#"> Anniversary </a> </li>
+      <li> <a href="#"> Thank You </a> </li>
+      <li> <a href="#"> Graduation </a> </li>
+      <li> <a href="#"> Get Well </a> </li>
+    </ul>
+  </nav>
+
+<button class="toggle-btn"> Dark Mode </button>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <h2> FAQs </h2>
+    <h3> Question? <span> Look here. </span> </h3>
+
+
+    <div class="faq-container">
+      <!-- Left Side: Collapsible FAQ`s -->
+      < class="faq-list">
+        <!-- Each FAQ Item -->
+        < class="faq-item">
+          <button class="faq-question"> What types of flowers do you offer? </button>
+          <div class="faq-answer"> 
+            <p> We offer a wide variety of flowers for all occasions; Roses, Lillies,Tulips, Orchids and more seasonal varieties. </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question"> Do you offer same-day delivery? </button>
+          <div class="faq-answer"> <p> Conditional same day, according to availability and vacinity. </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question"> Do you deliver outside your local area? </button>
+          <div class="faq-answer"> <p> Yes, we deliver nationwide with a small additional fee. </p>
+          </div>
+        </div>
+
+
+        <div class="faq-item">
+          <button class="faq-question"> What payment methods do you accept? </button>
+          <div class="faq-answer"> <p> We accept cards, PayPal, and mobile payments. </p>
+          </div>
+        </div>
+
+
+        <div class="faq-item">
+          <button class="faq-question"> Do you deliver to offices or event venues? </button>
+          <div class="faq-answer"> <p> Yes, we deliver to any location you prefer. </p>
+          </div>
+        </div>
+
+
+        <div class="faq-item">
+          <button class="faq-question">How do I track my order? </button>
+          <div class="faq-answer"> <p> You will receive a tracking link via email. </p>
+          </div>
+        </div>
+
+       <div class="faq-item">
+          <button class="faq-question"> What if I get the wrong order? </button>
+          <div class="faq-answer"> <p> For wrong delivery, kindly contact on any of our social media, website or email and we will get back to you promptly. </p> 
+          </div> 
+        </div>
+ 
+
+      <!-- Right Side: Contact card -->
+
+        <div class="contact-icon"> 
+          <class="contact-image">
+            <img src="C:\Users\user\Downloads\Contact Us.jpg" alt="Contact Us">
+        <h3> You have different questions? </h3>
+        <p> Our team will answer all your questions. We ensure a promppt response. </p>
+        <button class="contact-btn"> Contact Us </button>
+      </aside>
+    </div>
+  </di>
+
+
+  <!-- Footer -->
+   <>
+    <div class="footer-container">
+      <div class="footer-about">
+       <h3> Flower Shop. </h3>
+       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p> 
+    </div>
+
+    <div class="footer-links">
+        <div>
+          <h4> Company </h4>
+          <a href="#"> About Us </a>
+          <a href="#"> Blog </a>
+          <a href="#"> Contact Us </a>
+        </div>
+
+    <div>
+      <h4> Customer Service </h4>
+          <a href="#"> My Account </a>
+          <a href="#"> Track Order </a>
+          <a href="#"> Returns </a>
+    </div>
+
+    <div>
+          <h4> Information </h4>
+          <a href="#"> Privacy Policy </a>
+          <a href="#"> Terms & Conditions </a>
+    </div> 
+  </div> 
+</div>
+
+<div class="feature">
+       <h4> Flexible Payment </h4>
+      <p> Multiple secure payment options </p>
+    </div>
+
+    <div class="feature">
+       <h4> 24×7 Support </h4>
+      <p> We support online all days </p>
+    </div>
+
+    <div class="feature">
+       <h4> Fast Delivery </h4>
+      <p> Quick delivery within 24 hours </p>
+<p class="Copyright"> © 2024 Flower Shop. All Rights Reserved.  </p>
+    </div>
+  </footer>
+
+  <!-- Script to make the collapsible FAQs work -->
+  <script>
+    const questions = document.querySelectorAll('.faq-question');
+    questions.forEach(q => {
+      q.addEventListener('click', () => {
+        q.classList.toggle('active');
+        q.nextElementSibling.classList.toggle('show');
+      });
+    });
+  </script>
+
+  <link rel="stylesheet" href="FlowerShop Pg11.css" />
+
+  </body>
+</html>

@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+/* Navigation Bar */
+.navbar {
+  background-color: #5e00a1;
+  color: #fff;
+  padding: 1rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* FAQ Section */
+.faq-section {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.faq-section h2 {
+  color: #777;
+  font-size: 1.2rem;
+}
+
+.faq-section h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.faq-section span {
+  color: #5e00a1;
+}
+
+/* Layout */
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+/* Left side (FAQs) */
+.faq-list {
+  flex: 1;
+  min-width: 60%;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  width: 100%;
+  background: #f3f3f3;
+  border: none;
+  padding: 15px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.faq-question.active {
+  background: #5e00a1;
+  color: #fff;
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px;
+  background: #fafafa;
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+/* Right side (Contact box) */
+.contact-box {
+  background: #5e00a1;
+  color: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 25%;
+  min-width: 250px;
+  text-align: center;
+}
+
+.contact-box .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background: #ff6ec750;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+/* Feature Bar */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+  background: #5e00a1;
+  color: white;
+  padding: 40px 10%;
+  border-radius: 15px 15px 0 0;
+  margin-top: 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
