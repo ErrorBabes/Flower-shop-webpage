@@ -2037,3 +2037,262 @@ span .deal-subtitle {
   font-size: small;
   color: #888585;
 }
+
+/* footer */
+
+.footer {
+  border: 0px solid red;
+  /* padding: 10px; */
+  color: black;
+  background-color: #f3f3f3;
+}
+.footer .newsL {
+  border: 0px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.footer .newsL h6 {
+  padding: 10px 0;
+  color: #000000;
+  font-size: 25px;
+}
+
+.footer .newsL h2 {
+  padding: 0 0 10px 0;
+  color: #000000;
+  font-size: 25px;
+  border: 0px solid red;
+  line-height: 30px;
+}
+
+.footer .newsL p {
+  font-size: 10px;
+  padding-bottom: 15px;
+}
+
+.footer form {
+  border: 0px solid green;
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer form input,
+button {
+  border: 0px solid black;
+  padding: 8px;
+  border-radius: 15px;
+  width: 60%;
+  background-color: white;
+}
+
+.footer form button {
+  background-color: #5e00a1;
+  color: white;
+  width: 30%;
+  font-size: 10px;
+}
+
+.footer form input::placeholder {
+  font-size: 10px;
+}
+
+.footer .footie {
+  background-color: #5e00a1;
+  padding: 40px 30px 30px 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.footer .footie .footie1 {
+  display: flex;
+
+  border: 0px solid black;
+  font-size: 10px;
+  color: white;
+  padding-bottom: 20px;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.footer .footie .footie1 .Flogo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 0px solid black;
+  gap: 5px;
+  width: 100%;
+}
+
+.footer .footie .footie1 #loremy {
+  border: 0px solid red;
+  padding: 10px 0;
+  width: 100%;
+  line-height: 15px;
+  text-align: start;
+}
+
+.footer .footie .footie1 #imglogo {
+  width: 18px;
+}
+
+.footer .footie .footie1 .imglogo {
+  border: 0px solid black;
+  background-color: pink;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.footer .footie .footie1 .flower {
+  border: 0px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 5px;
+  width: 20%;
+}
+
+.footer .footie .footie1 .flower .Flogo #flo {
+  font-size: 1rem;
+}
+
+.footer .footie .footie1 .flower .Flogo #dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 25px;
+  background-color: pink;
+  margin-bottom: -10px;
+  margin-left: -4px;
+}
+
+.footer .footie .footie1 .flower .socials {
+  border: 0px solid yellow;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.footer .footie .footie1 .flower .socials .inner {
+  border: 0px solid red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a532f8;
+}
+
+.footer .footie .footie1 .flower .socials .soc {
+  border: 0px solid red;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5e00a1;
+  background-color: white;
+}
+
+.footer .footie .footie1 ul {
+  list-style-type: none;
+  padding: 10px 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+   color: rgba(255, 255, 255,0.5);
+}
+
+.footer .footie .footie1 li {
+  margin: 5px 0;
+}
+
+.footer .footie .footie1 .company,
+.service,
+.info,
+.cont {
+  border: 0px solid yellow;
+  padding: 0 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  font-size: 10px;
+ 
+}
+
+.footer .footie .footie1 h3 {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 10px 10px 0px;
+}
+
+.footer .footie .linee {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(172, 169, 170, 0.2);
+}
+
+.footer .footie #web {
+  color: #ffc0cb;
+}
+
+.footer .footie .right {
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+   color: white;
+}
+
+.footer .footie .right .lang {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  border: 0px solid red;
+}
+
+.footer .footie .right .lang span{
+  color: white;
+  font-size: 10px;
+}
+
+.footer .footie .right #copy{
+  font-size: 10px;
+}
+
+.footer .footie .right .lang #eng, #usd{
+  display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   gap: 5px;
+   padding: 5px;
+  border: 0px solid red;
+}
+
+.footer .footie .right .lang .icon1{
+  width: 5px;
+}
+
+.footer .footie .right .lang #separator{
+  width: 2px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
