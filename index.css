@@ -116,11 +116,11 @@ h2 {
     height: 28px;
 }
 
-.sec-one-ratings p {
+.ratings p {
     font-weight: 700;
 }
 
-.sec-one-ratings span {
+.ratings span {
     color: #818181;
     font-size: small;
 }
