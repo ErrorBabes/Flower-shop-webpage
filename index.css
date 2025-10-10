@@ -116,11 +116,11 @@ h2 {
     height: 28px;
 }
 
-.ratings p {
+.sec-one-ratings p {
     font-weight: 700;
 }
 
-.ratings span {
+.sec-one-ratings span {
     color: #818181;
     font-size: small;
 }
@@ -230,9 +230,10 @@ nav a:focus {
 
 .shop-now a {
     color: #262626;
-    font-size: smaller;
+    font-size: .85rem;
     font-weight: 500;
     text-underline-offset: 2px;
+    text-decoration: underline;
 }
 
 .ratings-section {
@@ -475,9 +476,10 @@ nav a:focus {
   
 .section-three {
   display: flex;
-  padding: 2em 4em 4.2em 4em;
+  padding: 5em 4em 5.5em 4em;
   justify-content: space-around;
   gap: 3rem;
+  background-color: #F6F6F6;
 }
 
 .section-three img {
@@ -644,9 +646,9 @@ nav a:focus {
 
 .viewall{
     background-color: #5E00A6;
-    color: white;
+    color: #FFDAFF;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 700;
@@ -654,7 +656,8 @@ nav a:focus {
 }
 
 .viewall:hover{
-    background-color: #c9335b;
+    background-color: #5E00A6;
+    color: #db23ba;
 }
 
 
@@ -673,10 +676,12 @@ nav a:focus {
 .discount-badge{
     background: #e84cd5;
     color: white;
-    padding: 4px 12px;
+    padding: 6px 12px;
     border-radius: 20px;
     font-size: 12px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
     display: inline-flex;
     position: absolute;
 }
@@ -777,16 +782,23 @@ nav a:focus {
 }
 
 .highlights{
-    margin-bottom: 40px 0 20px;
-    padding: 0 40px;
+    margin-bottom: 0;
+    padding: 0 60px;
+    font-weight: 500;
+    font-size: larger;
 }
 
 .products-header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px 0 20px;
-    padding: 0 40px;
+    margin: 0;
+    padding: 0 60px;
+}
+
+.products-header-container h3 {
+  font-size: 2.3rem;
+  margin: 10px 0 25px 0;
 }
 
 .products-header-container:hover{
@@ -801,6 +813,7 @@ nav a:focus {
 
 .product-section{
     padding-left: 40px;
+    padding-top: 5.5em;
 }
 
 /*section 5 and 6*/
