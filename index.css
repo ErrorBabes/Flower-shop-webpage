@@ -1358,10 +1358,10 @@ span .deal-subtitle {
 }
 
 #section-7-smallcard-discount{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #ffffff;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 #section-7-smallcard-date {
@@ -1378,6 +1378,7 @@ span .deal-subtitle {
     font-size: 0.875rem;
     font-weight: 500;
     margin-top: 10px;
+    text-decoration: underline;
 }
 
 .section7_bigcardcontainer {
