@@ -470,7 +470,76 @@ nav a:focus {
 }
 
 /*sections 3 and 4 */
-.container{
+
+/*sections 3 */
+  
+.section-three {
+  display: flex;
+  padding: 2em 4em 4.2em 4em;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.section-three img {
+  width: 24em;
+  height: 24em;
+  border-radius: 50%;
+}
+
+.section-three-right{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.tag {
+  font-weight: 500;
+}
+
+.section-three-right h2 {
+  font-size: 2.3rem;
+}
+
+.section-three-right h2 span {
+  color: #5E00A6;
+}
+
+.section-three-p {
+  color: #8a7e7e;
+  width: 85%;
+}
+
+.section-three-button {
+  border-radius: 15px;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 1.8em 1em;
+  width: 89%;
+  border: none;
+  background-color: #5E00A6;
+  color: #FF9BFF;
+}
+
+.section-three-button-num {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  border-left: #1f2937;
+
+}
+
+.section-three-signature{
+  margin-top: 1.2rem;
+  font-family: cursive;
+  font-weight: 400;
+  color: #9b9191;
+}
+
+/*sections 3 end */
+
+
+.container5{
     align-self: center;
     justify-self: center;
 }
