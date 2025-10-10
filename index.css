@@ -230,7 +230,7 @@ nav a:focus {
 
 .shop-now a {
     color: #262626;
-    font-size: .85rem;
+    font-size: smaller;
     font-weight: 500;
     text-underline-offset: 2px;
     text-decoration: underline;
