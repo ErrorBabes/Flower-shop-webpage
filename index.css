@@ -2187,7 +2187,7 @@ span .deal-subtitle {
   margin-bottom: .5em;
 }
 
-.footer form {
+.footer .fotter-form {
   border: 0px solid green;
   padding: 10px;
   width: 50%;
@@ -2196,7 +2196,7 @@ span .deal-subtitle {
   gap: 12px;
 }
 
-.footer-input {
+ .footer-input {
   border: 0px solid black;
   padding: 15px 10px 15px 15px;
   border-radius: 25px;
