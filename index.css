@@ -1003,6 +1003,11 @@ a {
   background: plum;
 }
 
+.time-box-btn{
+ position: relative;
+ left: .7em;
+ top: 0;
+}
 /* styling the purple nav */
 
 nav .navTop {
