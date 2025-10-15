@@ -176,6 +176,8 @@ nav a:hover,
 nav a:focus {
     color: #db23ba;
     background-color: #5E00A6;
+    padding: .5em;
+    text-decoration: underline;
 }
 
 .nav-icons {
